@@ -1,0 +1,327 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+body{
+   background-color: rgb(213, 231, 241);
+}
+.navpage{
+   display: flex;
+   flex-direction: row;
+   margin-top:3rem ;
+  margin-left: 5rem;
+}
+.navpage img{width: 5%;
+   height: 5%;
+    
+}
+nav{margin-top: 1rem;
+   align-content: right;
+   align-items: right;
+   margin-left: 20rem;
+}
+nav a{
+   color:rgb(4, 4, 33) ; 
+   font-size: 1.2rem;
+}
+a.active, a:hover{
+   transition: .5s;
+}
+nav ul{
+   list-style: none;
+    
+}
+nav ul li{
+   display: inline-block;
+   margin: 1rem;
+
+}
+.navpage button{ width: 15%;
+   margin-left: 3rem;
+   color: rgb(76, 172, 250);
+   border-radius: 0.5rem ;
+   border-color: rgb(76, 172, 250);
+   background-color:rgb(213, 231, 241) ;
+    
+}
+.headerhost{margin-top: 5rem;
+   display: flex;
+   margin-left: 5rem;
+   margin-right: 3rem;
+}
+.hostwriteup{ margin-top: 4rem;
+
+
+}
+.hostwriteup h1{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-bottom: 2rem;
+   font-size: 3rem;
+   color: rgb(10, 10, 65);
+}
+.hostwriteup p{
+   font-size: 1.2rem;
+   color: rgb(70, 98, 99);
+}
+.headerhost button{
+   margin-top: 3rem;
+  padding: 1rem;
+   border-radius: 1rem;
+   border: none;
+   color: rgb(255, 255, 255);
+   background-color: rgb(23, 137, 252);
+  font-size: 1.2rem;
+}
+.headerhost img{
+   margin-left: 5rem;
+}
+.premium{
+   display:flex;
+   margin-top: 5rem;
+   margin-left: 5rem;
+   margin-right: 5rem;
+}
+.premium img{margin-right: 21rem;
+    
+}
+.premium h1{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-bottom: 2rem;
+ font-size: 3rem;
+ color: rgb(10, 10, 65);
+ }
+.premium p{
+ font-size: 1.1rem;
+ color: rgb(70, 98, 99);
+   }
+.premium button{
+ margin-top: 3rem;
+   padding: 1.2rem;
+   border-radius: 1rem;
+   border: none;
+   color: rgb(255, 255, 255);
+   background-color: rgb(23, 137, 252);
+   font-size: 1.4rem;
+   }
+.support{
+   display: flex;
+ margin-top: 4rem;
+   margin-left: 5rem;
+}
+.supportwriteup{
+   margin-top: 5rem;
+}
+.support h1{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-bottom: 2rem;
+   font-size: 3rem;
+   color: rgb(10, 10, 65);
+ }
+.support p{
+   font-size: 1.2rem;
+   color: rgb(70, 98, 99);
+ }
+.support button{
+  margin-top: 3rem;
+   padding: 1.2rem;
+   border-radius: 1rem;
+   border: none;
+   color: rgb(255, 255, 255);
+   background-color: rgb(23, 137, 252);
+   font-size: 1.4rem;
+   }
+.support img{ margin-top: 1rem;
+   margin-left: 10rem;
+}
+.service{
+   display: flex;
+   margin-top: 5rem;
+   margin-left: 4rem;
+   margin-right: 2rem;
+}
+.service h1{ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 2.7rem;
+   color: rgb(10, 10, 65);
+   margin-right: 1rem;
+}
+.servicewriteup p{ margin-left: 15rem;
+   font-size: 1.1rem;
+   color: rgb(70, 98, 99);
+ }
+ .servicebox{margin-top: 3rem;
+   margin-bottom: 3rem;
+   margin-left: 4rem;
+   margin-right: 4rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 1rem;
+   column-gap: 3rem;
+   row-gap: 3rem;
+    
+ }
+ 
+.servicebox h3{color: rgb(10, 10, 65);
+   margin-top: 1rem;
+
+ }
+ .servicebox p{margin-top: 1rem;
+   color: rgb(70, 98, 99);
+ }
+.price{background-color: rgb(0, 191, 255);
+   margin-top: 5rem;
+
+    
+ }
+.price h1{margin-top: 5rem;
+   margin-bottom: 1rem;
+   color: rgb(249, 245, 245);
+   text-align: center;
+ }
+ .starter{padding: 5rem;
+  background-color: rgb(255, 255, 255);
+   margin-bottom: 3rem;
+   border-radius: 1rem;
+ 
+ }
+.starter span{
+   color: rgb(70, 98, 99);
+ }
+.packagebox{ margin-left: 5rem;
+   margin-right: 4rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   box-sizing: border-box;
+   column-gap: 1.5rem;
+   align-items: justify;
+   }
+ .packagebox h3{ color: rgb(10, 10, 65);
+   margin-bottom: 1rem;
+   font-size: 1.5rem;
+   align-items: justify;
+ }
+ .packagebox p{ color: rgb(70, 98, 99);
+   font-size: 1rem;
+
+ }
+ .packagebox ul li{ color: rgb(10, 10, 65); ;
+   list-style: none;
+   margin: 0.8rem;
+ }
+ .packagebox button{
+   margin-top: 3rem;
+   padding: 1.2rem;
+   border-radius: 0.5rem;
+   border: none;
+   color:rgb(0, 191, 255);
+   border: 0.1rem solid rgb(0, 191, 255) ;
+   background-color: rgb(255, 255, 255);
+   font-size: 1.4rem;
+   }
+.blackpopular{
+  background-color: linear-gradient( to rgb(15, 15, 15) white);
+   }
+.blackpopular h3{
+   color: rgb(10, 10, 65);
+   }
+.blacklist button{
+  margin-top: 3rem;
+   padding: 1.2rem;
+   border-radius: 0.5rem;
+   border: none;
+   color:rgb(255, 255, 255);
+   background-color: rgb(0, 191, 255);
+   font-size: 1.4rem;
+   }
+ .customer{
+   margin-top: 2rem;
+  margin-left: 4rem;
+   margin-right: 4rem;
+ }
+ .customer h2 {
+   color: rgb(10, 10, 65);
+   margin-bottom: 1rem;
+ }
+.customerwriteup{
+   text-align: center;
+   margin-bottom: 3rem;
+ }
+.customerwriteup p{
+   text-align: center;
+ }
+ .customerbox{
+   row-gap: 3rem;
+   column-gap: 3rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+.box{padding: 3rem;
+   background-color: rgb(253, 248, 248);
+ }
+.box p{
+ color: rgb(70, 98, 99);
+   text-align: justify;
+
+ }
+.worry{background-color: rgb(65, 156, 248);
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   margin-top: 4rem;
+ }
+ 
+.worrywriteup{
+   margin-top: 5rem;
+   margin-left: 7rem;
+   
+ }
+.worrywriteup h3{
+   font-size: 2rem;
+   color: rgb(255, 255, 255);
+ }
+.worrywriteup p{margin-top: 1.5rem;
+   color: rgb(245, 242, 242);
+   font-size: 1rem;
+   margin-bottom: 5rem;
+ }
+ .worry button{ margin-right: 10rem;
+   color: rgb(255, 255, 255);
+   background-color: rgb(65, 156, 248);
+   border-radius:0.3rem;
+   height: 14%;
+   margin-top: 9rem;
+   border: 0.1rem solid rgb(255, 255, 255);
+ }
+footer{margin-top: 4rem;
+   bottom: 0;
+   display: grid;
+   grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+ }
+.footerlogo{color:rgb(70, 98, 99);
+   margin-left: 5rem;
+   margin-right: 5rem;
+ }
+.footerlogo img{
+   width: 26%;
+   margin-bottom: 2rem;
+ }
+.footerbox{margin-bottom: 2rem;
+    
+    
+ }
+.footerbox h3{margin-left: 1rem;
+   color: rgb(10, 10, 65);
+}
+.footerbox ul li{
+ color:rgb(70, 98, 99);
+   list-style: none;
+   margin: 1rem;
+}
+.icons{
+   margin-left: 3rem;
+}
+.icon h3{  color: rgb(10, 10, 65);
+
+}
+.icons img{
+   border: none;
+   border-radius: 5rem;
+   margin: 0.4rem;
+}
